@@ -7,7 +7,7 @@ import Main from "./pages/index.js";
 function App() {
   return (
     <div>
-      <h1>Netflix Project</h1>
+      <Main/>
     </div>
   );
 }
