@@ -14,4 +14,6 @@
 body {
   font-family: 'Helvetica';
   -webkit-font-smoothing: antialiased;
+  background: var(--main-dark);
+  color: #fff;
 }
