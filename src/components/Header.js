@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import logo from "../svg/logo.svg"
 
 // importing react router
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   render() {
