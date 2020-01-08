@@ -10,12 +10,12 @@ import { NavLink } from "react-router-dom";
 class Header extends Component {
   render() {
     return (
-      <div className="header-container">
+      <HeaderComponent className="header-container">
         <div className="header-top">
           <img src={logo} />
           <NavLink className="signIn-btn">Sign In</NavLink>
         </div>
-      </div>
+      </HeaderComponent>
       );
   }
 }
