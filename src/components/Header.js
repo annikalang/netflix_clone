@@ -13,14 +13,32 @@ import styled from "styled-components";
 class Header extends Component {
   render() {
     return (
-      <div className="header-container">
+      <HeaderContainer className="header-container">
         <div className="header-top">
           <img src={logo} />
           <NavLink to="/" className="signIn-btn">Sign In</NavLink>
         </div>
-      </div>
+      </HeaderContainer>
       );
   }
 }
 
 export default Header;
+
+// Header Container
+
+const HeaderContainer= styled.headers
+  .signIn-btn {
+    right: 0;
+    margin: 1.125rem 3% 0;
+    padding: 0.4375rem 1.0635rem;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0.1875rem;
+    font-size: 1rem;
+    background: var(--main-red);
+    position: absolute;
+    translate: transform(-50%, -50%);
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+  }
