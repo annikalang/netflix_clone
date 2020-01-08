@@ -10,12 +10,12 @@ import { NavLink } from "react-router-dom";
 class Header extends Component {
   render() {
     return (
-      <HeaderComponent className="header-container">
+      <HeaderContainer className="header-container">
         <div className="header-top">
           <img src={logo} />
           <NavLink className="signIn-btn">Sign In</NavLink>
         </div>
-      </HeaderComponent>
+      </HeaderContainer>
       );
   }
 }
@@ -24,7 +24,7 @@ export default Header;
 
 // Header Container
 
-const HeaderComponent = styled.div
+const HeaderContainer= styled.headers
   .signIn-btn {
     right: 0;
     margin: 1.125rem 3% 0;
