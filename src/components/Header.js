@@ -12,7 +12,7 @@ import styled from "styled-components";
 
 // Header Container
 const HeaderContainer = styled.div
-  .signIn-btn; {
+  .signIn-btn {
     right: 0;
     margin: 1.125rem 3% 0;
     padding: 0.4375rem 1.0635rem;
